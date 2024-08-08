@@ -1,0 +1,96 @@
+.cardProductDetail {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDivProductDetail {
+    max-width: 520px;
+    height: 400px;
+    width: 100%;
+}
+
+.imgProductDetail {
+    width: 100%;
+    height: 100%;
+}
+
+.cardDivProductDetail {
+    max-width: 600px;
+    width: 100%;
+}
+
+.titleProductDetail {
+    color: #3c4242;
+    font-family: Core Sans C;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 47.6px;
+    letter-spacing: 0.68px;
+}
+
+.spanProductDetail {
+    display: block;
+    color: #807d7e;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.cartProductDetail {
+    padding: 12px 40px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background: #8a33fd;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cartProductDetail:hover {
+    background: #ffffff;
+    border: 1px solid #8a33fd;
+    transition: 0.5s;
+}
+
+.cartProductDetail:hover .spanCartProductDetail {
+    color: #000000;
+    transition: 0.5s;
+}
+
+
+.spanCartProductDetail {
+    color: #fff;
+    text-align: center;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.buttonProductDetail {
+    display: flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #3c4242;
+    color: #3c4242;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+
+.buttonProductDetail:hover  {
+    background-color: #8a33fd;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+    .cardProductDetail {
+        flex-direction: column;
+    }
+}

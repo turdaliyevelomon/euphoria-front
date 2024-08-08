@@ -1,0 +1,72 @@
+.titleListWomen {
+    color: #3f4646;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 140px;
+}
+
+.cardWomenList {
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.imgCardWomenList {
+    width: 100%;
+}
+
+.divCardWomenList {
+    max-width: 70%;
+    width: 100%;
+}
+
+.titleCardWomenList {
+    color: #3c4242;
+    font-family: Causten;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.textCardWomenList {
+    color: #807d7e;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttonCardWomenList {
+    width: 82.305px;
+    height: 36.58px;
+    border-radius: 8px;
+    background: #f6f6f6;
+    border: none;
+    color: #3c4242;
+    text-align: center;
+    font-family: Causten;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.buttonCardWomenList:hover {
+    background: #3c4242;
+    color: #f6f6f6;
+    transition: 0.5s;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.women .women {
+    font-weight: 800;
+}

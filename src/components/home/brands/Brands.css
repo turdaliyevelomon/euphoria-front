@@ -1,0 +1,61 @@
+.brands {
+    margin: 50px 0;
+    background: #3c4242;
+    border-radius: 12px;
+    padding: 45px;
+}
+
+.titleBrands {
+    color: #fff;
+    text-align: center;
+    font-family: Core Sans C;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.textBrands {
+    color: #fff;
+    text-align: center;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.spanBrands {
+    color: #fbd103;
+    font-weight: 700;
+}
+
+.brandDivImg {
+    /* max-width: 177.518px;
+    width: 100%; */
+    height: 85.551px;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandImg {
+    width: 160px;
+    border-radius: 12px;
+}
+
+@media (max-width: 992px) {
+    .brandImg {
+        /* max-width: 10px; */
+        width: 120px;
+        /* border-radius: 12px; */
+    }
+}
+
+@media (max-width: 768px) {
+    .brandImg {
+        /* max-width: 10px; */
+        width: 100px;
+        /* border-radius: 12px; */
+    }
+}

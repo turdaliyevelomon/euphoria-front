@@ -1,0 +1,95 @@
+.titleCart {
+    color: #3c4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.56px;
+    margin: 170px 0 0 0;
+}
+
+.cart {
+    padding-left: 0;
+    margin-bottom: 100px;
+}
+
+.itemCart {
+    padding: 60px 0;
+    border-bottom: 1px solid black;
+}
+
+.imgCart {
+    width: 110px;
+}
+
+.textCart {
+    color: #3c4242;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+.spanCart {
+    color: #807d7e;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+.buttonCart {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+
+.spanBtnCart {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.divBtnCart {
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+
+.deleteCart {
+    cursor: pointer;
+}
+
+.deleteCart:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.checkButtonCart {
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    background: #8a33fd;
+    color: #fff;
+    text-align: center;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    transition: 0.5s;
+    margin-bottom: 80px;
+}
+
+.checkButtonCart:hover {
+    color: #8a33fd;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.carts .savat {
+    background: rgb(205, 205, 222);
+}

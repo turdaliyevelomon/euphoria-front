@@ -1,0 +1,100 @@
+.titleWishlist {
+    color: #3c4242;
+    font-family: Core Sans C;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.56px;
+    margin: 170px 0 50px 180px;
+}
+
+.wishlist {
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+.itemWishlist {
+    padding: 60px 0;
+    border-bottom: 1px solid red;
+}
+
+.imgWishlist {
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+.textWishlist {
+    color: #3c4242;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+.spanWishlist {
+    color: #807d7e;
+    font-family: Causten;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.44px;
+}
+
+.buttonWishlist {
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    background: #8a33fd;
+    color: #fff;
+    text-align: center;
+    font-family: Causten;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    transition: 0.5s;
+}
+
+.buttonWishlist:hover {
+    color: #8a33fd;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.spanWishlistDelete {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.heart .heart {
+    background: rgb(205, 205, 222);
+}
+
+.divWishlist {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .divWishlist {
+        flex-direction: column;
+    }
+    .wishlist {
+        padding: 0 50px;
+    }
+    .titleWishlist {
+        margin-left: 0;
+        margin-left: 50px;
+    }
+    .imgWishlist {
+        max-width: 200px;
+        width: 100%;
+    }
+}

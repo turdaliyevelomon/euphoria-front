@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 20px;
+    /* border: 1px solid red; */
+}
+
+.dark-mode .color {
+    color: white;
+}
+
+.divNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
